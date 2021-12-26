@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+html body {
+    margin: 0px;
+    font-family: 'Arvo', serif;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+#main-container {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 5rem;
+    background-color: #00B8A9;
+}
+
+#heading {
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-size: 3rem;
+    color: azure;
+}
+
+#side-nav {
+    height: 100%;
+    background-color: #F8F3D4;
+    display: inline-block;
+    width: 15em;
+    color: rgb(100, 100, 100);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-button {
+    height: 1em;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.nav-button label:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#icon-drop:hover {
+    color: rgb(0, 0, 0);
+}
+
+#icon-add:hover {
+    color: rgb(0, 0, 0);
+}
+
+#icon-drop {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#icon-add {
+    position: relative;
+    top: 3px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#todo-container {
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+#todo-div {
+    margin: 3em 10em;
+}
+
+#content-container {
+    height: 100%;
+    display: flex;
+}
+
+#add-todo {
+    height: 30px;
+    border: dashed;
+    border-width: 2px;
+}
+
+#icon-add1 {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#add-label {
+    position: relative;
+    bottom: 4px;
+    left: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 428px) {
+    #heading {
+        font-size: 2.5rem;
+    }
+}
